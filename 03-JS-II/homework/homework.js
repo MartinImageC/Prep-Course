@@ -217,7 +217,8 @@ function tablaDelSeis(){
     for(var i = 0; i < 11;i++){
         SixTable.push(i*6);
     }
-  console.log(SixTable);
+  var tabla = SixTable;
+  return tabla;
 }
 
 function tieneTresDigitos(numero){
