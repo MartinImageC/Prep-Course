@@ -10,6 +10,15 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+
+  newArray = [];
+  newArray2 = [];
+  array = [newArray , newArray2];
+  newArray.push(Object.keys(objeto)[0]);
+  newArray.push(Object.values(objeto)[0]);
+  newArray2.push(Object.keys(objeto)[1]);
+  newArray2.push(Object.values(objeto)[1]);
+  return array;
 }
 
 
