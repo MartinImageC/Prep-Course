@@ -1,6 +1,19 @@
 html{
     color: white;
 }
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://picsum.photos/1080/720?random=1);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div{
+    margin: auto;
+}
 #divClass{
     color: black;
 }
